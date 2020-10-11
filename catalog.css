@@ -18,13 +18,14 @@ button:hover {
     font-size: 18px;
 }
 
-.page-home > header {
+.page-catalog > header {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     padding: 30px;
 }
 
-.page-home > .section-one {
+.page-catalog > .section-one {
     padding: 20px;
     background-color: lightgrey;
 }
@@ -33,38 +34,45 @@ p {
     font-size: 16px;
 }
 
-.page-home > .section-two {
-    padding: 40px;
+.page-catalog > .section-two {
+    padding: 10px 5px;
     background-color: black;
     color: white;
 }
 
-.page-home > .section-two > h2 {
+.page-catalog > .section-two > h2 {
     display: flex;
     justify-content: center;
 }
 
-.section-split {
-    display: flex;
-    justify-content: space-evenly;
+.section-category {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 3px;
 }
 
-.section-split > a {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    text-align: center;
-    padding: 30px;
-    width: 200px;
-    height: 200px;
-    border: 1px solid white;
+.section-category-alt {
     background-color: lightgrey;
-    border-radius: 10px;
+    color: black;
+    padding: 10px;
+    margin: 3px;
 }
 
-.section-split > a:hover {
+.section-category > h3 {
     background-color: darkgrey;
     color: white;
+    padding: 10px;
+}
+
+.section-category-alt > h3 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.section-course {
+    border-bottom: 3px solid black;
 }
 
 footer {
@@ -75,8 +83,4 @@ footer {
     padding: 10px;
     background-color: grey;
     vertical-align: middle;
-}
-
-footer > a:hover {
-    color: white;
 }
